@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tweet Saver</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    label, textarea, input, button {
+      display: block;
+      margin: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tweet Saver</h1>
+  <label for="tweetText">Tweet Text:</label>
+  <textarea id="tweetText" placeholder="Paste the tweet text here"></textarea>
+
+  <label for="tweetUrl">Tweet URL:</label>
+  <input type="text" id="tweetUrl" placeholder="Enter the tweet URL">
+
+  <button id="saveButton">Save Tweet</button>
+
+  <script src="preload.js"></script>
+</body>
+</html>
