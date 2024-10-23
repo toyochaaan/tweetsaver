@@ -1,6 +1,8 @@
 # TweetSaver
 
 **TweetSaver** は、ツイートのURLを使ってツイートの情報を抽出し、JSON形式に変換して保存するツールです。
+## 技術スタック
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
 ## 機能
 
@@ -22,24 +24,19 @@
 
     ```bash
     npm install
-    ```
-
-3. `.env`ファイルを作成してMongoDBの接続URLを設定します。
-
-    ```bash
-    touch .env
-    ```
-
-    `.env`ファイルの内容例:
-
-    ```
-    MONGODB_URI=your-mongodb-uri
+    npm init -y
+    npm install electron --save-dev
+    npm install fs
     ```
 
 ## 使い方
 
-### 1. CSVまたはJSONファイルからツイートを読み込む
+### 1. GUIを起動
+
+    ```bash
+    npm start
+    ```
+![GUI](https://github.com/user-attachments/assets/2c2c1d00-1312-4e7b-83a1-7202473eca34)
 
 
-
-### 3. MongoDBに保存されたデータ例
+### 2. 
