@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "**TweetSaver** は、ツイートのURLを使ってツイートの情報を抽出し、JSON形式に変換して保存するツールです。",
   "devDependencies": {
     "electron": "^33.0.2"
   },
